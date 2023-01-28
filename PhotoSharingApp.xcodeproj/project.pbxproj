@@ -13,9 +13,20 @@
 		4A0260DC2981BE4B00BB9809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0260DA2981BE4B00BB9809 /* Main.storyboard */; };
 		4A0260DE2981BE4B00BB9809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A0260DD2981BE4B00BB9809 /* Assets.xcassets */; };
 		4A0260E12981BE4B00BB9809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A0260DF2981BE4B00BB9809 /* LaunchScreen.storyboard */; };
+		4A0260F22981C28100BB9809 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4A0260F12981C28100BB9809 /* GoogleService-Info.plist */; };
+		4A0260F52981CEDA00BB9809 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 4A0260F42981CEDA00BB9809 /* FirebaseAuth */; };
+		4A0260F72981CEDA00BB9809 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 4A0260F62981CEDA00BB9809 /* FirebaseFirestore */; };
+		4A0260F92981CEDA00BB9809 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 4A0260F82981CEDA00BB9809 /* FirebaseStorage */; };
+		4A0260FB2982A73F00BB9809 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0260FA2982A73F00BB9809 /* FeedViewController.swift */; };
+		4A0260FD2982A75100BB9809 /* UpLoadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0260FC2982A75100BB9809 /* UpLoadViewController.swift */; };
+		4A0260FF2982A76700BB9809 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A0260FE2982A76700BB9809 /* SettingsViewController.swift */; };
+		4A026101298446C500BB9809 /* FeedCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A026100298446C500BB9809 /* FeedCells.swift */; };
+		4AF5329F298574D2006C5232 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF5329E298574D2006C5232 /* Post.swift */; };
+		763C1B09BEFF2A082E8E8F73 /* Pods_PhotoSharingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B05D2F74C3C5098DC8857E1 /* Pods_PhotoSharingApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		175CDDD53ABF35B449692E88 /* Pods-PhotoSharingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoSharingApp.debug.xcconfig"; path = "Target Support Files/Pods-PhotoSharingApp/Pods-PhotoSharingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		4A0260D12981BE4B00BB9809 /* PhotoSharingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSharingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A0260D42981BE4B00BB9809 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A0260D62981BE4B00BB9809 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,14 @@
 		4A0260DD2981BE4B00BB9809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A0260E02981BE4B00BB9809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A0260E22981BE4B00BB9809 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A0260F12981C28100BB9809 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4A0260FA2982A73F00BB9809 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		4A0260FC2982A75100BB9809 /* UpLoadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpLoadViewController.swift; sourceTree = "<group>"; };
+		4A0260FE2982A76700BB9809 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4A026100298446C500BB9809 /* FeedCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCells.swift; sourceTree = "<group>"; };
+		4AF5329E298574D2006C5232 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		4B05D2F74C3C5098DC8857E1 /* Pods_PhotoSharingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PhotoSharingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B54018D37A4D6A04FCF867 /* Pods-PhotoSharingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoSharingApp.release.xcconfig"; path = "Target Support Files/Pods-PhotoSharingApp/Pods-PhotoSharingApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +50,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A0260F52981CEDA00BB9809 /* FirebaseAuth in Frameworks */,
+				4A0260F72981CEDA00BB9809 /* FirebaseFirestore in Frameworks */,
+				4A0260F92981CEDA00BB9809 /* FirebaseStorage in Frameworks */,
+				763C1B09BEFF2A082E8E8F73 /* Pods_PhotoSharingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +65,8 @@
 			children = (
 				4A0260D32981BE4B00BB9809 /* PhotoSharingApp */,
 				4A0260D22981BE4B00BB9809 /* Products */,
+				6EB552F435E0D84E03364DBC /* Pods */,
+				C221BCE51586A63B5218EAAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +81,70 @@
 		4A0260D32981BE4B00BB9809 /* PhotoSharingApp */ = {
 			isa = PBXGroup;
 			children = (
+				4AF5329D298574B4006C5232 /* Classes */,
+				4A0260F12981C28100BB9809 /* GoogleService-Info.plist */,
+				4A0260EA2981BE7500BB9809 /* Controllers */,
+				4A0260E92981BE6D00BB9809 /* Views */,
+				4A0260E82981BE6100BB9809 /* Supporting Files */,
+			);
+			path = PhotoSharingApp;
+			sourceTree = "<group>";
+		};
+		4A0260E82981BE6100BB9809 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				4A0260D42981BE4B00BB9809 /* AppDelegate.swift */,
 				4A0260D62981BE4B00BB9809 /* SceneDelegate.swift */,
-				4A0260D82981BE4B00BB9809 /* ViewController.swift */,
-				4A0260DA2981BE4B00BB9809 /* Main.storyboard */,
 				4A0260DD2981BE4B00BB9809 /* Assets.xcassets */,
 				4A0260DF2981BE4B00BB9809 /* LaunchScreen.storyboard */,
 				4A0260E22981BE4B00BB9809 /* Info.plist */,
 			);
-			path = PhotoSharingApp;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A0260E92981BE6D00BB9809 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A0260DA2981BE4B00BB9809 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4A0260EA2981BE7500BB9809 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A0260D82981BE4B00BB9809 /* ViewController.swift */,
+				4A0260FA2982A73F00BB9809 /* FeedViewController.swift */,
+				4A0260FC2982A75100BB9809 /* UpLoadViewController.swift */,
+				4A0260FE2982A76700BB9809 /* SettingsViewController.swift */,
+				4A026100298446C500BB9809 /* FeedCells.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4AF5329D298574B4006C5232 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4AF5329E298574D2006C5232 /* Post.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6EB552F435E0D84E03364DBC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				175CDDD53ABF35B449692E88 /* Pods-PhotoSharingApp.debug.xcconfig */,
+				C0B54018D37A4D6A04FCF867 /* Pods-PhotoSharingApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C221BCE51586A63B5218EAAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B05D2F74C3C5098DC8857E1 /* Pods_PhotoSharingApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +154,22 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A0260E52981BE4B00BB9809 /* Build configuration list for PBXNativeTarget "PhotoSharingApp" */;
 			buildPhases = (
+				C4C6E041DF7785F22E5DA1D7 /* [CP] Check Pods Manifest.lock */,
 				4A0260CD2981BE4B00BB9809 /* Sources */,
 				4A0260CE2981BE4B00BB9809 /* Frameworks */,
 				4A0260CF2981BE4B00BB9809 /* Resources */,
+				D9BB1E073C5D11826EBD5D39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = PhotoSharingApp;
+			packageProductDependencies = (
+				4A0260F42981CEDA00BB9809 /* FirebaseAuth */,
+				4A0260F62981CEDA00BB9809 /* FirebaseFirestore */,
+				4A0260F82981CEDA00BB9809 /* FirebaseStorage */,
+			);
 			productName = PhotoSharingApp;
 			productReference = 4A0260D12981BE4B00BB9809 /* PhotoSharingApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +198,9 @@
 				Base,
 			);
 			mainGroup = 4A0260C82981BE4B00BB9809;
+			packageReferences = (
+				4A0260F32981CEDA00BB9809 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 4A0260D22981BE4B00BB9809 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A0260E12981BE4B00BB9809 /* LaunchScreen.storyboard in Resources */,
+				4A0260F22981C28100BB9809 /* GoogleService-Info.plist in Resources */,
 				4A0260DE2981BE4B00BB9809 /* Assets.xcassets in Resources */,
 				4A0260DC2981BE4B00BB9809 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +224,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C4C6E041DF7785F22E5DA1D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PhotoSharingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9BB1E073C5D11826EBD5D39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoSharingApp/Pods-PhotoSharingApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PhotoSharingApp/Pods-PhotoSharingApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PhotoSharingApp/Pods-PhotoSharingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A0260CD2981BE4B00BB9809 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4A0260D92981BE4B00BB9809 /* ViewController.swift in Sources */,
+				4A0260FD2982A75100BB9809 /* UpLoadViewController.swift in Sources */,
 				4A0260D52981BE4B00BB9809 /* AppDelegate.swift in Sources */,
+				4AF5329F298574D2006C5232 /* Post.swift in Sources */,
+				4A0260FB2982A73F00BB9809 /* FeedViewController.swift in Sources */,
 				4A0260D72981BE4B00BB9809 /* SceneDelegate.swift in Sources */,
+				4A0260FF2982A76700BB9809 /* SettingsViewController.swift in Sources */,
+				4A026101298446C500BB9809 /* FeedCells.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,13 +420,14 @@
 		};
 		4A0260E62981BE4B00BB9809 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 175CDDD53ABF35B449692E88 /* Pods-PhotoSharingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PhotoSharingApp/Info.plist;
+				INFOPLIST_FILE = "PhotoSharingApp/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -309,13 +448,14 @@
 		};
 		4A0260E72981BE4B00BB9809 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B54018D37A4D6A04FCF867 /* Pods-PhotoSharingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PhotoSharingApp/Info.plist;
+				INFOPLIST_FILE = "PhotoSharingApp/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -356,6 +496,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4A0260F32981CEDA00BB9809 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4A0260F42981CEDA00BB9809 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A0260F32981CEDA00BB9809 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		4A0260F62981CEDA00BB9809 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A0260F32981CEDA00BB9809 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		4A0260F82981CEDA00BB9809 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4A0260F32981CEDA00BB9809 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4A0260C92981BE4B00BB9809 /* Project object */;
 }
